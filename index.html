@@ -19,29 +19,30 @@
     <div id="calculatorLayout">
         <div id="container">
             <div id="resultContainer">
+                <div id="previousOperand"></div>
                 <div id="result">0</div>
             </div>
             <div id="buttons">
-                <button type="button" name="AC" value="AC" class="utility">AC</button>
-                <button type="button" name="⌫" value="⌫" class="utility">⌫</button>
-                <button type="button" name="%" value="%" class="utility">%</button>
+                <button type="button" name="AC" value="AC" class="utility" id="clear">AC</button>
+                <button type="button" name="⌫" value="⌫" class="utility" id="deleteDigit">⌫</button>
+                <button type="button" name="%" value="%" class="utility" id="percentage">%</button>
                 <button type="button" name="/" value="/" class="symbol">/</button>
-                <button type="button" name="1" value="1" class="number">7</button>
-                <button type="button" name="2" value="2" class="number">8</button>
-                <button type="button" name="3" value="3" class="number">9</button>
+                <button type="button" name="7" value="7" class="number">7</button>
+                <button type="button" name="8" value="8" class="number">8</button>
+                <button type="button" name="9" value="9" class="number">9</button>
                 <button type="button" name="*" value="*" class="symbol">*</button>
                 <button type="button" name="4" value="4" class="number">4</button>
                 <button type="button" name="5" value="5" class="number">5</button>
                 <button type="button" name="6" value="6" class="number">6</button>
                 <button type="button" name="-" value="-" class="symbol">-</button>
-                <button type="button" name="7" value="7" class="number">1</button>
-                <button type="button" name="8" value="8" class="number">2</button>
-                <button type="button" name="9" value="9" class="number">3</button>
+                <button type="button" name="1" value="1" class="number">1</button>
+                <button type="button" name="2" value="2" class="number">2</button>
+                <button type="button" name="3" value="3" class="number">3</button>
                 <button type="button" name="+" value="+" class="symbol">+</button>
-                <button type="button" name="+/-" value="+/-" class="utility">+/-</button>
+                <button type="button" name="+/-" value="+/-" class="utility" id="changeSymbol">+/-</button>
                 <button type="button" name="0" value="0" class="number">0</button>
-                <button type="button" name="." value="." class="utility">.</button>
-                <button type="button" name="=" value="=" class="symbol">=</button>
+                <button type="button" name="." value="." class="utility" id="dot">.</button>
+                <button type="button" name="=" value="=" id="equals">=</button>
             </div>
         </div>
     </div>
